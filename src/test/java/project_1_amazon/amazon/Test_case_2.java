@@ -1,0 +1,35 @@
+package project_1_amazon.amazon;
+
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.Assert;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
+
+
+@Listeners(utility_test.class)
+public class Test_case_2 extends Basee_class
+{
+	@Test(retryAnalyzer=Retry_logic.class)
+	public void test_casee_2() 
+	{
+		Homepage_amazon home = new Homepage_amazon(driver);
+		home.sign_in_hover_over_m(driver);
+		home.sign_in_m();
+		
+		Login_page login = new Login_page(driver);
+		login.email_login_corrrect_m();
+		login.proceed_to_create_m();
+		login.password_correct_login_m();
+		login.continue_to_home_page_login_m();
+		AssertJUnit.assertEquals(home.search.isDisplayed(), true);
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="amazon_testing_Suite">
+  <test thread-count="5" name="amazon_testing_Test" parallel="classes">
+    <classes>
+     <class name="project_1_amazon.amazon.Test_case_1"/>
+      <class name="project_1_amazon.amazon.Test_case_2"/>
+      <class name="project_1_amazon.amazon.Test_case_3"/>
+      <class name="project_1_amazon.amazon.Test_case_4"/>
+      <class name="project_1_amazon.amazon.Test_case_5"/>
+       <class name="project_1_amazon.amazon.Test_Case_6"/>
+        <class name="project_1_amazon.amazon.Test_case_7"/>
+        <class name="project_1_amazon.amazon.Test_case_8"/>
+         <class name="project_1_amazon.amazon.Test_case_9"/>
+       <class name="project_1_amazon.amazon.Test_case_10"/>
+       <class name="project_1_amazon.amazon.Test_case_11"/>
+      <class name="project_1_amazon.amazon.Test_case_12"/>      
+      <class name="project_1_amazon.amazon.Test_case_13"/>      
+      <class name="project_1_amazon.amazon.Test_case_14"/>
+      <class name="project_1_amazon.amazon.Test_case_15"/>    
+      
+    </classes>
+  </test> <!-- amazon_testing_Test -->
+</suite> <!-- amazon_testing_Suite -->
